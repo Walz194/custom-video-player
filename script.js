@@ -28,7 +28,6 @@ function updateProgress() {
 
   //Get minutes
   let mins = Math.floor(video.currentTime / 60);
-  console.log(mins);
   if (mins < 10) {
     mins = "0" + String(mins);
   }
